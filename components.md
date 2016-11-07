@@ -1,5 +1,5 @@
 # Components
 
 
-Here is the list of components by extension
+Here is the list of components by extension.
 
