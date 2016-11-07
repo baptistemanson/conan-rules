@@ -1,0 +1,22 @@
+{
+  "name": "conan",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:baptistemanson/conan-rules.git",
+    "type": "git"
+  },
+  "author": "Baptiste Manson <baptiste.manson@inovia.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "ghpages": "^0.0.8",
+    "gitbook": "^3.2.2",
+    "gitbook-cli": "^2.3.0"
+  },
+  "scripts": {
+    "docs:prepare": "gitbook install",
+    "docs:watch": "npm run docs:prepare && gitbook serve",
+    "docs:build": "npm run docs:prepare && rm -rf _book && gitbook build",
+    "docs:publish": "ghpages -d _book"
+  }
+}
