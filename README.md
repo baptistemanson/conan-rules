@@ -1,1 +1,1 @@
-# conan-rules
+# Conan unofficial rules
