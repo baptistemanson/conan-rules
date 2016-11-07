@@ -1,0 +1,15 @@
+{
+  "name": "conan",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:baptistemanson/conan-rules.git",
+    "type": "git"
+  },
+  "author": "Baptiste Manson <baptiste.manson@inovia.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "gitbook": "^3.2.2",
+    "gitbook-cli": "^2.3.0"
+  }
+}
